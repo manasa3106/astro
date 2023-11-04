@@ -1,0 +1,251 @@
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.hotel-col{
+    flex-basis: 31%;
+    background: moccasin;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.hotel-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.scroll{
+   height: 60%;
+   width: 100%;
+}
+
+.img{
+   width:  100px;
+   height: 100px;
+   object-fit: cover;
+}
+
+.cuisine{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.cuisine-col{
+    flex-basis: 31%;
+    background: rgb(170, 208, 255);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.cuisine-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(123, 210, 231, 0.7),rgba(154, 69, 163, 0.7)),url("/static/images/contact.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color:aliceblue;
+    margin-bottom: 40px;
+    padding: 0;
+}
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(82, 98, 163, 0.7),rgba(82, 98, 163, 0.7)),url("/static/images/food_banner.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:aliceblue;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col h1{
+    text-align: center;
+    padding-top: 0;
+}
+.about-col p{
+    text-align: center;
+    padding: 15px 0 25px;
+}
+.booking h1{
+    text-align: center;
+    padding-top: 0;
+}
+.slot input{
+    width: 80%;
+    padding: 15px;
+	margin-bottom: 17px;
+    margin-left: 10%;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.slot .hero-btn{
+    margin-left: 45%;
+    color:#28f4e7;
+    border: 1px solid #28f4e7;
+    transition: 0.5s;
+}
+.slot .hero-btn:hover{
+    color: aliceblue;
+}
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+
+
+.jithu {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color:black;
+    letter-spacing: 1px;
+}
+
+.container {
+    background-color:rgb(251, 248, 221);
+    margin:200px;
+    box-shadow:10px 15px 20px rgba(0,0,0,.1);
+    display:grid;
+    grid-template-columns: 40% 60%;
+}
+
+.container.time{
+    background-color: black;
+    padding:50px;
+    border:3px dashed #998100;
+    outline-offset:-30px;
+    text-align:center;
+}
+
+.heading{
+    font-size:35px;
+    text-transform: uppercase;
+}
+
+.heading-days {
+    color:#998100;
+    font-size: 30px;
+}
+
+.heading-phone{
+    font-size: 20px;
+}
+
+.container-form{
+    padding:20px 0;
+    margin:0 auto;
+    color:#000;
+}
+form{
+    display:grid;
+    grid-row-gap:20px;
+}
+form p{
+    font-weight:600;
+}
+.form-field{
+    display:flex;
+    justify-content: space-between;
+}
+
+input,select{
+    pad:10px,15px;
+
+}
+.btn{
+    background-color: rgba(0,0,0,.95);
+    color:white;
+    padding:10px 20px;
+    border:none;
+    font-size:18px;
+    border-radius:100px;
+    -webkit-border-radius:100px ;
+    -moz-border-radius:100px;
+    -ms-border-radius:100px;
+    -o-border-radius:100px;
+    box-shadow:7px 10px 12px rgba(0,0,0,.1);
+    cursor:pointer;
+    transition:all .3s;
+    -webkit-transition:all .3s;
+    -moz-transition:all .3s;
+    -ms-transition:all .3s;
+    -o-transition:all .3s;
+}
+
+.btn:hover {
+    transform:scale(1.03);
+    -webkit-transform:scale(1.03);
+    -moz-transform:scale(1.03);
+    -ms-transform:scale(1.03);
+    -o-transform:scale(1.03);
+    box-shadow:10px 12px 15px rgba(0,0,0,.3);
+}

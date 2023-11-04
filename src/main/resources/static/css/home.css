@@ -1,0 +1,301 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #292e36;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header ul li:last-child {
+    margin-right: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #FF6600;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url("your-background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+cta-button {
+    background-color: #FF6600;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+cta-button:hover {
+    background-color: #FF5500;
+}
+
+/* Features section styles */
+.features {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+features h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+features ul {
+    list-style: none;
+}
+
+features ul li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Services section styles */
+.services {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+services h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.service {
+    margin: 20px;
+}
+
+service h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+service p {
+    font-size: 16px;
+}
+
+/* Testimonials section styles */
+.testimonials {
+    background-color: #292e36;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+testimonials h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #FF6600;
+    border-radius: 5px;
+    text-align: center;
+}
+
+testimonials p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+testimonials cite {
+    font-size: 16px;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+contact h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+contact p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+contact input[type="text"],
+contact input[type="email"],
+contact textarea,
+contact button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+contact button {
+    background-color: #FF6600;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+contact button:hover {
+    background-color: #FF5500;
+}
+
+/* Footer styles */
+footer {
+    background-color: #292e36;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        font-size: 20px;
+    }
+
+    header ul li {
+        margin-right: 10px;
+    }
+
+    hero {
+        padding: 100px 0;
+    }
+
+    hero h1 {
+        font-size: 28px;
+    }
+
+    hero p {
+        font-size: 16px;
+    }
+
+    cta-button {
+        padding: 8px 16px;
+    }
+
+    features h2 {
+        font-size: 24px;
+    }
+
+    features ul li {
+        font-size: 18px;
+    }
+
+    services h2 {
+        font-size: 24px;
+    }
+
+    service h3 {
+        font-size: 20px;
+    }
+
+    service p {
+        font-size: 14px;
+    }
+
+    testimonials h2 {
+        font-size: 24px;
+    }
+
+    testimonials p {
+        font-size: 16px;
+    }
+
+    testimonials cite {
+        font-size: 14px;
+    }
+
+    contact h2 {
+        font-size: 24px;
+    }
+
+    contact p {
+        font-size: 16px;
+    }
+
+    contact form input,
+    contact textarea,
+    contact button {
+        font-size: 14px;
+    }
+}
