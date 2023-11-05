@@ -27,7 +27,7 @@ public class Rest {
 	 public String form(Model model)
 	 {
 	  model.addAttribute("user",new User());
-	  return "login";
+	  return "login.jsp";
 	 }
 	 
 	 @PostMapping("/login1")
