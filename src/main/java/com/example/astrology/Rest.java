@@ -40,7 +40,7 @@ public class Rest {
 	@GetMapping("/")
 	public String home1()
 	{
-		return "home1";
+		return "home1.jsp";
 	}
 	
 	@PostMapping("/poojadetails")
