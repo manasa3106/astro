@@ -7,10 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
 @RestController
-
 public class Rest {
 	
 	UserDAOClass udc;
@@ -28,7 +26,7 @@ public class Rest {
 	 public String form(Model model)
 	 {
 	  model.addAttribute("user",new User());
-	  return "login.jsp";
+	  return "login";
 	 }
 	 
 	 @PostMapping("/login1")
@@ -39,9 +37,9 @@ public class Rest {
 	 }
 	
 	@GetMapping("/")
-	public ModelAndView home1()
+	public String home1()
 	{
-		return new ModelAndView("home1");
+		return "home1";
 	}
 	
 	@PostMapping("/poojadetails")
